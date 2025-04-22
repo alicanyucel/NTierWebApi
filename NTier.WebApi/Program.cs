@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.ConfigureRepositoryManager();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>

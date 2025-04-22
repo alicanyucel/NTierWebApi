@@ -83,7 +83,7 @@ public class BooksController : ControllerBase
     {
         try
         {
-            var entity = _manager.Book.GetOneBookById(id, true);
+            var entity = _manager.Book.GetOneBookById(id, false);
             if (entity == null)
                 return NotFound($"Book with id {id} not found.");
 

@@ -15,8 +15,6 @@ public class RepositoryManager:IRepositoryManager
 
     public IBookRepository Book => _bookRepository.Value;
 
-    IBookRepository IRepositoryManager.Book { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
     public void Save()
     {
        _context.SaveChanges();
