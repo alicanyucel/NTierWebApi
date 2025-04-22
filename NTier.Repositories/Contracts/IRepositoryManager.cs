@@ -4,6 +4,6 @@ namespace NTier.Repositories.Contracts;
 
 public interface IRepositoryManager
 {
-    IBookRepository Book { get; };
+    IBookRepository Book { get; set; }
     void Save();
 }
