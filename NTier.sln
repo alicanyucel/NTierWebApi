@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Business", "NTier.Bus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.DataAccess", "NTier.DataAccess\NTier.DataAccess.csproj", "{DA41C036-12E4-4824-ABC2-C0279D687856}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Repositories", "NTier.Repositories\NTier.Repositories.csproj", "{990E977C-C997-4F33-A580-60DF5A59AA32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DA41C036-12E4-4824-ABC2-C0279D687856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA41C036-12E4-4824-ABC2-C0279D687856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA41C036-12E4-4824-ABC2-C0279D687856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990E977C-C997-4F33-A580-60DF5A59AA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990E977C-C997-4F33-A580-60DF5A59AA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990E977C-C997-4F33-A580-60DF5A59AA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990E977C-C997-4F33-A580-60DF5A59AA32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
